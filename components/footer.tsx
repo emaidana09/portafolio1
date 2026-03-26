@@ -43,12 +43,6 @@ export function Footer({ links }: FooterProps) {
             <p className="text-sm text-muted-foreground">
               {new Date().getFullYear()} - Todos los derechos reservados
             </p>
-            <a
-              href="/admin"
-              className="mt-2 inline-block text-xs text-muted-foreground/50 transition-colors hover:text-primary"
-            >
-              Panel de Admin
-            </a>
           </div>
         </motion.div>
       </div>
